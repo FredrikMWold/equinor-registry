@@ -1,0 +1,20 @@
+{
+  "name": "equinor-registry",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:registry": "jsrepo build"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jsrepo": "^1.16.6"
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.2",
+    "clsx": "^2.1.1",
+    "react": "^18.3.1",
+    "tailwind-merge": "^2.5.5"
+  }
+}
