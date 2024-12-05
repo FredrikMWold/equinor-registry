@@ -1,11 +1,11 @@
 [
 	{
-		"name": "components",
+		"name": "common",
 		"blocks": [
 			{
 				"name": "Dialog",
-				"directory": "src/components/Dialog",
-				"category": "components",
+				"directory": "src/common/Dialog",
+				"category": "common",
 				"tests": false,
 				"subdirectory": true,
 				"list": true,
