@@ -9,11 +9,16 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "jsrepo": "^1.16.6"
+    "@types/react": "^18.3.13",
+    "jsrepo": "^1.16.6",
+    "typescript": "^5.7.2"
   },
   "dependencies": {
+    "@equinor/eds-core-react": "^0.42.5",
     "@radix-ui/react-dialog": "^1.1.2",
+    "@types/react-dom": "^18.3.1",
     "clsx": "^2.1.1",
+    "embla-carousel-react": "^8.5.1",
     "react": "^18.3.1",
     "tailwind-merge": "^2.5.5"
   }
