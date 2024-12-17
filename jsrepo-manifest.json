@@ -135,21 +135,6 @@
 				]
 			},
 			{
-				"name": "tsconfig",
-				"directory": "src/config",
-				"category": "config",
-				"tests": false,
-				"subdirectory": false,
-				"list": true,
-				"files": [
-					"tsconfig.json"
-				],
-				"localDependencies": [],
-				"_imports_": {},
-				"dependencies": [],
-				"devDependencies": []
-			},
-			{
 				"name": "vite.config",
 				"directory": "src/config",
 				"category": "config",

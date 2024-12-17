@@ -32,20 +32,21 @@ const DialogContent = React.forwardRef<
   React.ComponentPropsWithoutRef<typeof DialogPrimitive.Content>
 >(({ className, children, ...props }, ref) => (
   <DialogPortal>
-    <DialogOverlay />
-    <DialogPrimitive.Content
-      ref={ref}
-      className={cn(
-        `fixed left-[50%] top-[50%] z-[9999]
-            	translate-x-[-50%] translate-y-[-50%] rounded-xl
+    <DialogOverlay>
+      <DialogPrimitive.Content
+        ref={ref}
+        className={cn(
+          `fixed left-[50%] top-[50%] z-[9999]
+        translate-x-[-50%] translate-y-[-50%] rounded-xl
 				bg-background-default outline outline-[2px]
 				outline-background-medium data-[state=open]:animate-contentShow`,
-        className
-      )}
-      {...props}
-    >
-      {children}
-    </DialogPrimitive.Content>
+          className
+        )}
+        {...props}
+      >
+        {children}
+      </DialogPrimitive.Content>
+    </DialogOverlay>
   </DialogPortal>
 ));
 DialogContent.displayName = DialogPrimitive.Content.displayName;
