@@ -91,6 +91,30 @@
 				}
 			},
 			{
+				"name": "Layout",
+				"directory": "src/common",
+				"category": "common",
+				"tests": false,
+				"subdirectory": false,
+				"list": true,
+				"files": [
+					"Layout.tsx"
+				],
+				"localDependencies": [
+					"common/ScrollArea"
+				],
+				"_imports_": {
+					"../common/ScrollArea": "{{common/ScrollArea}}"
+				},
+				"dependencies": [
+					"@equinor/amplify-component-lib@^8.18.1",
+					"@equinor/eds-core-react@^0.42.5",
+					"@equinor/eds-icons",
+					"react-router-dom@^6.28.1"
+				],
+				"devDependencies": []
+			},
+			{
 				"name": "ScrollArea",
 				"directory": "src/common/ScrollArea",
 				"category": "common",
@@ -175,6 +199,26 @@
 					"vite@^6.0.4",
 					"vite-plugin-checker@^0.8.0"
 				]
+			}
+		]
+	},
+	{
+		"name": "styles",
+		"blocks": [
+			{
+				"name": "index",
+				"directory": "src/styles",
+				"category": "styles",
+				"tests": false,
+				"subdirectory": false,
+				"list": true,
+				"files": [
+					"index.css"
+				],
+				"localDependencies": [],
+				"_imports_": {},
+				"dependencies": [],
+				"devDependencies": []
 			}
 		]
 	},
