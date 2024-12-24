@@ -115,6 +115,28 @@
 				"devDependencies": []
 			},
 			{
+				"name": "Popover",
+				"directory": "src/common/Popover",
+				"category": "common",
+				"tests": false,
+				"subdirectory": true,
+				"list": true,
+				"files": [
+					"index.tsx"
+				],
+				"localDependencies": [
+					"utils/cn"
+				],
+				"dependencies": [
+					"react@^18.3.1",
+					"@radix-ui/react-popover@^1.1.4"
+				],
+				"devDependencies": [],
+				"_imports_": {
+					"../../utils/cn": "{{utils/cn}}"
+				}
+			},
+			{
 				"name": "ScrollArea",
 				"directory": "src/common/ScrollArea",
 				"category": "common",
@@ -196,7 +218,7 @@
 				"dependencies": [],
 				"devDependencies": [
 					"@vitejs/plugin-react@^4.3.4",
-					"vite@^6.0.4",
+					"vite@^6.0.5",
 					"vite-plugin-checker@^0.8.0"
 				]
 			}
@@ -239,7 +261,7 @@
 				"_imports_": {},
 				"dependencies": [
 					"clsx@^2.1.1",
-					"tailwind-merge@^2.5.5"
+					"tailwind-merge@^2.6.0"
 				],
 				"devDependencies": []
 			}
