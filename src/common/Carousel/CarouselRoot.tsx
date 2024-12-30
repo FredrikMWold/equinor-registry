@@ -1,6 +1,6 @@
 import { FC, HTMLAttributes } from "react";
 import { CarouselProvider } from "./context";
-import { useCarousel } from "./hooks/useCarousel";
+import { useCarousel } from "./useCarousel";
 import { CarouselProps } from "./types";
 import { cn } from "../../utils/cn";
 

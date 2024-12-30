@@ -2,7 +2,7 @@ import { Button, Icon } from "@equinor/eds-core-react";
 import { arrow_forward } from "@equinor/eds-icons";
 import { ComponentProps, FC } from "react";
 import { cn } from "../../utils/cn";
-import { useCarouselContext } from "./hooks/useCarouselContext";
+import { useCarouselContext } from "./useCarouselContext";
 
 export const CarouselNext: FC<ComponentProps<typeof Button>> = ({
   className,

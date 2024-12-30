@@ -1,6 +1,6 @@
 import { FC, HTMLAttributes } from "react";
 import { cn } from "../../utils/cn";
-import { useCarouselContext } from "./hooks/useCarouselContext";
+import { useCarouselContext } from "./useCarouselContext";
 
 export const CarouselItem: FC<HTMLAttributes<HTMLDivElement>> = ({
   className,
