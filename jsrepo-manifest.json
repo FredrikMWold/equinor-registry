@@ -92,14 +92,14 @@
 				}
 			},
 			{
-				"name": "Layout2",
+				"name": "Layout",
 				"directory": "src/common",
 				"category": "common",
 				"tests": false,
 				"subdirectory": false,
 				"list": true,
 				"files": [
-					"Layout2.tsx"
+					"Layout.tsx"
 				],
 				"localDependencies": [
 					"common/ScrollArea"
