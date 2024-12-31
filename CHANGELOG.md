@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/FredrikMWold/equinor-registry/compare/v1.0.0...v1.0.1) (2024-12-31)
+
+
+### Bug Fixes
+
+* test change for github workflow ([17491be](https://github.com/FredrikMWold/equinor-registry/commit/17491be9bf411ffa234d52b27389f2b8b0f18912))
+
 ## 1.0.0 (2024-12-31)
 
 
