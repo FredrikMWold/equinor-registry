@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/FredrikMWold/equinor-registry/compare/v1.0.1...v1.0.2) (2024-12-31)
+
+
+### Bug Fixes
+
+* rolle back test change ([35af0ff](https://github.com/FredrikMWold/equinor-registry/commit/35af0ff53f4e39b4c87945becf6584e1b2589501))
+
 ## [1.0.1](https://github.com/FredrikMWold/equinor-registry/compare/v1.0.0...v1.0.1) (2024-12-31)
 
 
