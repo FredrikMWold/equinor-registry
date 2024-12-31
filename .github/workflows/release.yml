@@ -15,5 +15,30 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: googleapis/release-please-action@v4
+        name: Create Release
         with:
           release-type: node
+      - uses: actions/checkout@v4
+        name: Checkout
+        if: ${{ steps.release.outputs.release_created }}
+      - uses: actions/setup-node@v4
+        name: Setup Node.js
+        with:
+          node-version: 20
+          registry-url: 'https://registry.npmjs.org'
+        if: ${{ steps.release.outputs.release_created }}
+      - run: npm ci
+        name: Install dependencies
+        if: ${{ steps.release.outputs.release_created }}
+      - run: npm run build:registry
+        name: Build jsrepo manifest
+        if: ${{ steps.release.outputs.release_created }}
+      - run: |
+          git config --local user.email "fredrikmikalwold@gmail.com"
+          git config --local user.name "FredrikMWold"
+          git add .
+          git commit -m "generate jsrepo manifest"
+          git push
+        name: Push changes
+        if: ${{ steps.release.outputs.release_created }}
+      
