@@ -92,20 +92,20 @@
 				}
 			},
 			{
-				"name": "Layout",
+				"name": "Layout2",
 				"directory": "src/common",
 				"category": "common",
 				"tests": false,
 				"subdirectory": false,
 				"list": true,
 				"files": [
-					"Layout.tsx"
+					"Layout2.tsx"
 				],
 				"localDependencies": [
 					"common/ScrollArea"
 				],
 				"_imports_": {
-					"../common/ScrollArea": "{{common/ScrollArea}}"
+					"./ScrollArea": "{{common/ScrollArea}}"
 				},
 				"dependencies": [
 					"@equinor/amplify-component-lib@^8.18.1",
