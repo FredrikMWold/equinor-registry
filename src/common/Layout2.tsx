@@ -2,7 +2,7 @@ import { EquinorLogo } from "@equinor/amplify-component-lib";
 import { SideBar, TopBar } from "@equinor/eds-core-react";
 import { add } from "@equinor/eds-icons";
 import { Outlet } from "react-router-dom";
-import { ScrollArea } from "../common/ScrollArea";
+import { ScrollArea } from "./ScrollArea";
 
 export const Layout = () => {
   return (
