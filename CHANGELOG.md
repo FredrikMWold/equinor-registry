@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.2.0](https://github.com/FredrikMWold/equinor-registry/compare/v1.1.1...v1.2.0) (2025-01-01)
+
+
+### Features
+
+* adds eds radio element to dropdown menu radio item ([859a26b](https://github.com/FredrikMWold/equinor-registry/commit/859a26b81610ec2a7f9f1c745cdb9f0c20b36254))
+
+
+### Bug Fixes
+
+* fix right padding issue for radio dropdown items ([859a26b](https://github.com/FredrikMWold/equinor-registry/commit/859a26b81610ec2a7f9f1c745cdb9f0c20b36254))
+* stops trigger focus on close ([859a26b](https://github.com/FredrikMWold/equinor-registry/commit/859a26b81610ec2a7f9f1c745cdb9f0c20b36254))
+
 ## [1.1.1](https://github.com/FredrikMWold/equinor-registry/compare/v1.1.0...v1.1.1) (2025-01-01)
 
 
