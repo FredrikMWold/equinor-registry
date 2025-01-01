@@ -67,7 +67,8 @@ export default {
 				tile: '0px 4px 16px 0px rgba(0, 0, 0, 0.13), 0px 3px 8px 0px rgba(0, 0, 0, 0.06)',
 				tempnav:
 					'0px 12px 17px 0px var(--Shadow-Shadow-14, rgba(0, 0, 0, 0.14)), 0px 5px 22px 0px var(--Shadow-Shadow-12, rgba(0, 0, 0, 0.12)), 0px 7px 8px 0px var(--Shadow-Shadow-20, rgba(0, 0, 0, 0.20));',
-			},
+        raised: '0.0px 1.0px 5.0px 0px rgba(0, 0, 0, 0.2),0.0px 3.0px 4.0px 0px rgba(0, 0, 0, 0.12),0.0px 2.0px 4.0px 0px rgba(0, 0, 0, 0.14)',
+        },
     },
   },
   plugins: [],
