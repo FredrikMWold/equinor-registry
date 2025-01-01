@@ -92,6 +92,30 @@
 				}
 			},
 			{
+				"name": "DropdownMenu",
+				"directory": "src/common/DropdownMenu",
+				"category": "common",
+				"tests": false,
+				"subdirectory": true,
+				"list": true,
+				"files": [
+					"index.tsx"
+				],
+				"localDependencies": [
+					"utils/cn"
+				],
+				"dependencies": [
+					"@equinor/eds-core-react@^0.42.5",
+					"@equinor/eds-icons",
+					"@radix-ui/react-dropdown-menu@^2.1.4",
+					"react@^18.3.1"
+				],
+				"devDependencies": [],
+				"_imports_": {
+					"../../utils/cn": "{{utils/cn}}"
+				}
+			},
+			{
 				"name": "Layout",
 				"directory": "src/common",
 				"category": "common",
