@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.1.0](https://github.com/FredrikMWold/equinor-registry/compare/v1.0.2...v1.1.0) (2025-01-01)
+
+
+### Features
+
+* adds box shadow and animations to tailwind config ([a4c10c4](https://github.com/FredrikMWold/equinor-registry/commit/a4c10c485120c1f90f35707e37174176af8d3bf8))
+* adds dropdown menu ([03d3a33](https://github.com/FredrikMWold/equinor-registry/commit/03d3a3351773c42dca663c7798a833ede86beae1))
+
+
+### Bug Fixes
+
+* warning resting css tailwind config using wrong css variable ([3c8d1e5](https://github.com/FredrikMWold/equinor-registry/commit/3c8d1e548274cb911698f41fe5e117c8ba1e68b8))
+
 ## [1.0.2](https://github.com/FredrikMWold/equinor-registry/compare/v1.0.1...v1.0.2) (2024-12-31)
 
 
