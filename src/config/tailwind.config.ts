@@ -32,8 +32,7 @@ export default {
         "background-success":
           "rgba(var(--eds_background_success), <alpha-value>)",
         "background-sticky": "var(--eds_background_sticky)",
-        "feedback-warning-resting":
-          "rgba(var(--eds_feedback_warning_resting), <alpha-value>)",
+				'warning-resting': 'rgba(var(--eds_warning_resting), <alpha-value>)',
         "infographic-primary-moss-green-21":
           "rgba(var(--eds_infographic_primary_moss_green_21), <alpha-value>)",
         "table-interactive-header-activeted":
