@@ -50,6 +50,25 @@ export default {
         "x-small": "var(--eds_spacing_x_small)",
         "xx-small": "var(--eds_spacing_xx_small)",
       },
+      keyframes: {
+				overlayShow: {
+					from: { opacity: '0' },
+					to: { opacity: '1' },
+				},
+				contentShow: {
+					from: { opacity: '0', transform: 'translate(-50%, -48%) scale(0.96)' },
+					to: { opacity: '1', transform: 'translate(-50%, -50%) scale(1)' },
+				},
+			},
+			animation: {
+				overlayShow: 'overlayShow 150ms cubic-bezier(0.16, 1, 0.3, 1)',
+				contentShow: 'contentShow 150ms cubic-bezier(0.16, 1, 0.3, 1)',
+			},
+      boxShadow: {
+				tile: '0px 4px 16px 0px rgba(0, 0, 0, 0.13), 0px 3px 8px 0px rgba(0, 0, 0, 0.06)',
+				tempnav:
+					'0px 12px 17px 0px var(--Shadow-Shadow-14, rgba(0, 0, 0, 0.14)), 0px 5px 22px 0px var(--Shadow-Shadow-12, rgba(0, 0, 0, 0.12)), 0px 7px 8px 0px var(--Shadow-Shadow-20, rgba(0, 0, 0, 0.20));',
+			},
     },
   },
   plugins: [],
