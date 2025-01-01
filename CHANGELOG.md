@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/FredrikMWold/equinor-registry/compare/v1.1.0...v1.1.1) (2025-01-01)
+
+
+### Bug Fixes
+
+* fix px padding for dropdown menu items ([4a9fdf0](https://github.com/FredrikMWold/equinor-registry/commit/4a9fdf0e741116bc1017b49225d65010d0ae67a1))
+
 ## [1.1.0](https://github.com/FredrikMWold/equinor-registry/compare/v1.0.2...v1.1.0) (2025-01-01)
 
 
