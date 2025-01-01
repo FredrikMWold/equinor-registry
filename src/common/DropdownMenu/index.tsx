@@ -1,4 +1,4 @@
-import { Checkbox, Icon } from "@equinor/eds-core-react";
+import { Checkbox, Icon, Radio } from "@equinor/eds-core-react";
 import { arrow_forward } from "@equinor/eds-icons";
 import * as DropdownMenuPrimitive from "@radix-ui/react-dropdown-menu";
 import * as React from "react";
@@ -71,6 +71,7 @@ const DropdownMenuContent = React.forwardRef<
   <DropdownMenuPrimitive.Content
     ref={ref}
     sideOffset={sideOffset}
+    onCloseAutoFocus={(e) => e.preventDefault()}
     className={cn(
       `shadow-raised z-[2000] min-w-[8rem] overflow-hidden rounded-[4px]
                 bg-background-default py-2 text-text-default data-[state=open]:animate-in 
@@ -135,22 +136,22 @@ DropdownMenuCheckboxItem.displayName =
 
 const DropdownMenuRadioItem = React.forwardRef<
   React.ElementRef<typeof DropdownMenuPrimitive.RadioItem>,
-  React.ComponentPropsWithoutRef<typeof DropdownMenuPrimitive.RadioItem>
->(({ className, children, ...props }, ref) => (
+  React.ComponentPropsWithoutRef<typeof DropdownMenuPrimitive.RadioItem> & {
+    selected?: boolean;
+  }
+>(({ className, children, selected = false, ...props }, ref) => (
   <DropdownMenuPrimitive.RadioItem
     ref={ref}
     className={cn(
       `relative flex cursor-pointer select-none
-            items-center rounded-sm py-4 pl-14 pr-2 text-base outline-none transition-colors
-            focus:bg-primary-hover-alt data-[disabled]:pointer-events-none data-[disabled]:opacity-50`,
+       items-center rounded-sm py-4 pl-14 pr-6 text-base outline-none transition-colors
+       focus:bg-primary-hover-alt data-[disabled]:pointer-events-none data-[disabled]:opacity-50`,
       className
     )}
     {...props}
   >
     <span className="absolute left-6 flex h-6 w-6 items-center justify-center">
-      <DropdownMenuPrimitive.ItemIndicator>
-        <div className="h-2.5 w-2.5 rounded-full bg-primary" />
-      </DropdownMenuPrimitive.ItemIndicator>
+      <Radio checked={selected} />
     </span>
     {children}
   </DropdownMenuPrimitive.RadioItem>
