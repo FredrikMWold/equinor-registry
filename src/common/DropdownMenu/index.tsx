@@ -136,10 +136,8 @@ DropdownMenuCheckboxItem.displayName =
 
 const DropdownMenuRadioItem = React.forwardRef<
   React.ElementRef<typeof DropdownMenuPrimitive.RadioItem>,
-  React.ComponentPropsWithoutRef<typeof DropdownMenuPrimitive.RadioItem> & {
-    selected?: boolean;
-  }
->(({ className, children, selected = false, ...props }, ref) => (
+  React.ComponentPropsWithoutRef<typeof DropdownMenuPrimitive.RadioItem>
+>(({ className, children, ...props }, ref) => (
   <DropdownMenuPrimitive.RadioItem
     ref={ref}
     className={cn(
@@ -151,7 +149,8 @@ const DropdownMenuRadioItem = React.forwardRef<
     {...props}
   >
     <span className="absolute left-6 flex h-6 w-6 items-center justify-center">
-      <Radio checked={selected} />
+      <Radio checked={false} className='group-data-[state="checked"]:hidden' />
+      <Radio checked={true} className='group-data-[state="unchecked"]:hidden' />
     </span>
     {children}
   </DropdownMenuPrimitive.RadioItem>
