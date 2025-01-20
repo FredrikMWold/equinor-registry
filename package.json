@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@equinor/amplify-component-lib": "^8.18.1",
-    "@equinor/eds-core-react": "^0.42.5",
+    "@equinor/eds-core-react": "^0.43.0",
     "@radix-ui/react-dialog": "^1.1.4",
     "@radix-ui/react-dropdown-menu": "^2.1.4",
     "@radix-ui/react-popover": "^1.1.4",
