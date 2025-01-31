@@ -247,23 +247,6 @@
 				"devDependencies": []
 			},
 			{
-				"name": "tailwind.config",
-				"directory": "src/config",
-				"category": "config",
-				"tests": false,
-				"subdirectory": false,
-				"list": true,
-				"files": [
-					"tailwind.config.ts"
-				],
-				"localDependencies": [],
-				"_imports_": {},
-				"dependencies": [],
-				"devDependencies": [
-					"tailwindcss@^3.4.17"
-				]
-			},
-			{
 				"name": "vite.config",
 				"directory": "src/config",
 				"category": "config",
@@ -275,7 +258,9 @@
 				],
 				"localDependencies": [],
 				"_imports_": {},
-				"dependencies": [],
+				"dependencies": [
+					"@tailwindcss/vite@^4.0.2"
+				],
 				"devDependencies": [
 					"@vitejs/plugin-react@^4.3.4",
 					"vite@^6.0.11",
