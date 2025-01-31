@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/FredrikMWold/equinor-registry/compare/v1.3.0...v1.4.0) (2025-01-31)
+
+
+### Features
+
+* update to tailwind v4 ([7dabbef](https://github.com/FredrikMWold/equinor-registry/commit/7dabbefbd1d77ff170d067cc2373228b7e4ab58a))
+
 ## [1.3.0](https://github.com/FredrikMWold/equinor-registry/compare/v1.2.0...v1.3.0) (2025-01-02)
 
 
