@@ -18,7 +18,7 @@
     "vite-plugin-checker": "^0.8.0"
   },
   "dependencies": {
-    "@equinor/amplify-component-lib": "^8.18.1",
+    "@equinor/amplify-component-lib": "^9.2.0",
     "@equinor/eds-core-react": "^0.43.0",
     "@radix-ui/react-dialog": "^1.1.4",
     "@radix-ui/react-dropdown-menu": "^2.1.4",
