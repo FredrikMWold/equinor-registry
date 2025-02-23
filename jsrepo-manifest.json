@@ -1,337 +1,344 @@
-[
-	{
-		"name": "common",
-		"blocks": [
-			{
-				"name": "Carousel",
-				"directory": "src/common/Carousel",
-				"category": "common",
-				"tests": false,
-				"subdirectory": true,
-				"list": true,
-				"files": [
-					"CarouselContent.tsx",
-					"CarouselItem.tsx",
-					"CarouselNext.tsx",
-					"CarouselPrevious.tsx",
-					"CarouselRoot.tsx",
-					"context.ts",
-					"index.tsx",
-					"types.ts",
-					"useCarousel.ts",
-					"useCarouselContext.ts"
-				],
-				"localDependencies": [
-					"utils/cn"
-				],
-				"dependencies": [
-					"react@^18.3.1",
-					"@equinor/eds-core-react@^0.43.0",
-					"@equinor/eds-icons",
-					"embla-carousel-react@^8.5.2"
-				],
-				"devDependencies": [],
-				"_imports_": {
-					"../../utils/cn": "{{utils/cn}}"
-				}
-			},
-			{
-				"name": "Command",
-				"directory": "src/common/Command",
-				"category": "common",
-				"tests": false,
-				"subdirectory": true,
-				"list": true,
-				"files": [
-					"CommandEmpty.tsx",
-					"CommandGroup.tsx",
-					"CommandInput.tsx",
-					"CommandItem.tsx",
-					"CommandList.tsx",
-					"CommandRoot.tsx",
-					"CommandSeparator.tsx",
-					"CommandShortcut.tsx",
-					"index.tsx"
-				],
-				"localDependencies": [
-					"utils/cn",
-					"common/ScrollArea"
-				],
-				"dependencies": [
-					"cmdk@^1.0.4",
-					"react@^18.3.1",
-					"@equinor/eds-core-react@^0.43.0",
-					"@equinor/eds-icons"
-				],
-				"devDependencies": [],
-				"_imports_": {
-					"../../utils/cn": "{{utils/cn}}",
-					"../ScrollArea": "{{common/ScrollArea}}"
-				}
-			},
-			{
-				"name": "Dialog",
-				"directory": "src/common/Dialog",
-				"category": "common",
-				"tests": false,
-				"subdirectory": true,
-				"list": true,
-				"files": [
-					"index.tsx"
-				],
-				"localDependencies": [
-					"utils/cn"
-				],
-				"dependencies": [
-					"react@^18.3.1",
-					"@radix-ui/react-dialog@^1.1.6"
-				],
-				"devDependencies": [],
-				"_imports_": {
-					"../../utils/cn": "{{utils/cn}}"
-				}
-			},
-			{
-				"name": "DropdownMenu",
-				"directory": "src/common/DropdownMenu",
-				"category": "common",
-				"tests": false,
-				"subdirectory": true,
-				"list": true,
-				"files": [
-					"index.tsx"
-				],
-				"localDependencies": [
-					"utils/cn"
-				],
-				"dependencies": [
-					"@equinor/eds-core-react@^0.43.0",
-					"@equinor/eds-icons",
-					"@radix-ui/react-dropdown-menu@^2.1.6",
-					"react@^18.3.1"
-				],
-				"devDependencies": [],
-				"_imports_": {
-					"../../utils/cn": "{{utils/cn}}"
-				}
-			},
-			{
-				"name": "Layout",
-				"directory": "src/common",
-				"category": "common",
-				"tests": false,
-				"subdirectory": false,
-				"list": true,
-				"files": [
-					"Layout.tsx"
-				],
-				"localDependencies": [
-					"common/ScrollArea"
-				],
-				"_imports_": {
-					"./ScrollArea": "{{common/ScrollArea}}"
+{
+	"categories": [
+		{
+			"name": "common",
+			"blocks": [
+				{
+					"name": "Carousel",
+					"directory": "src/common/Carousel",
+					"category": "common",
+					"tests": false,
+					"subdirectory": true,
+					"list": true,
+					"files": [
+						"CarouselContent.tsx",
+						"CarouselItem.tsx",
+						"CarouselNext.tsx",
+						"CarouselPrevious.tsx",
+						"CarouselRoot.tsx",
+						"context.ts",
+						"index.tsx",
+						"types.ts",
+						"useCarousel.ts",
+						"useCarouselContext.ts"
+					],
+					"localDependencies": [
+						"utils/cn"
+					],
+					"dependencies": [
+						"react@^18.3.1",
+						"@equinor/eds-core-react@^0.43.0",
+						"@equinor/eds-icons",
+						"embla-carousel-react@^8.5.2"
+					],
+					"devDependencies": [],
+					"_imports_": {
+						"../../utils/cn": "{{utils/cn}}"
+					}
 				},
-				"dependencies": [
-					"@equinor/amplify-component-lib@^8.18.1",
-					"@equinor/eds-core-react@^0.43.0",
-					"@equinor/eds-icons",
-					"react-router-dom@^6.28.2"
-				],
-				"devDependencies": []
-			},
-			{
-				"name": "Popover",
-				"directory": "src/common/Popover",
-				"category": "common",
-				"tests": false,
-				"subdirectory": true,
-				"list": true,
-				"files": [
-					"index.tsx"
-				],
-				"localDependencies": [
-					"utils/cn"
-				],
-				"dependencies": [
-					"react@^18.3.1",
-					"@radix-ui/react-popover@^1.1.6"
-				],
-				"devDependencies": [],
-				"_imports_": {
-					"../../utils/cn": "{{utils/cn}}"
+				{
+					"name": "Command",
+					"directory": "src/common/Command",
+					"category": "common",
+					"tests": false,
+					"subdirectory": true,
+					"list": true,
+					"files": [
+						"CommandEmpty.tsx",
+						"CommandGroup.tsx",
+						"CommandInput.tsx",
+						"CommandItem.tsx",
+						"CommandList.tsx",
+						"CommandRoot.tsx",
+						"CommandSeparator.tsx",
+						"CommandShortcut.tsx",
+						"index.tsx"
+					],
+					"localDependencies": [
+						"utils/cn",
+						"common/ScrollArea"
+					],
+					"dependencies": [
+						"cmdk@^1.0.4",
+						"react@^18.3.1",
+						"@equinor/eds-core-react@^0.43.0",
+						"@equinor/eds-icons"
+					],
+					"devDependencies": [],
+					"_imports_": {
+						"../../utils/cn": "{{utils/cn}}",
+						"../ScrollArea": "{{common/ScrollArea}}"
+					}
+				},
+				{
+					"name": "Dialog",
+					"directory": "src/common/Dialog",
+					"category": "common",
+					"tests": false,
+					"subdirectory": true,
+					"list": true,
+					"files": [
+						"index.tsx"
+					],
+					"localDependencies": [
+						"utils/cn"
+					],
+					"dependencies": [
+						"react@^18.3.1",
+						"@radix-ui/react-dialog@^1.1.6"
+					],
+					"devDependencies": [],
+					"_imports_": {
+						"../../utils/cn": "{{utils/cn}}"
+					}
+				},
+				{
+					"name": "DropdownMenu",
+					"directory": "src/common/DropdownMenu",
+					"category": "common",
+					"tests": false,
+					"subdirectory": true,
+					"list": true,
+					"files": [
+						"index.tsx"
+					],
+					"localDependencies": [
+						"utils/cn"
+					],
+					"dependencies": [
+						"@equinor/eds-core-react@^0.43.0",
+						"@equinor/eds-icons",
+						"@radix-ui/react-dropdown-menu@^2.1.6",
+						"react@^18.3.1"
+					],
+					"devDependencies": [],
+					"_imports_": {
+						"../../utils/cn": "{{utils/cn}}"
+					}
+				},
+				{
+					"name": "Layout",
+					"directory": "src/common",
+					"category": "common",
+					"tests": false,
+					"subdirectory": false,
+					"list": true,
+					"files": [
+						"Layout.tsx"
+					],
+					"localDependencies": [
+						"common/ScrollArea"
+					],
+					"_imports_": {
+						"./ScrollArea": "{{common/ScrollArea}}"
+					},
+					"dependencies": [
+						"@equinor/amplify-component-lib@^8.18.1",
+						"@equinor/eds-core-react@^0.43.0",
+						"@equinor/eds-icons",
+						"react-router-dom@^6.28.2"
+					],
+					"devDependencies": []
+				},
+				{
+					"name": "Popover",
+					"directory": "src/common/Popover",
+					"category": "common",
+					"tests": false,
+					"subdirectory": true,
+					"list": true,
+					"files": [
+						"index.tsx"
+					],
+					"localDependencies": [
+						"utils/cn"
+					],
+					"dependencies": [
+						"react@^18.3.1",
+						"@radix-ui/react-popover@^1.1.6"
+					],
+					"devDependencies": [],
+					"_imports_": {
+						"../../utils/cn": "{{utils/cn}}"
+					}
+				},
+				{
+					"name": "ScrollArea",
+					"directory": "src/common/ScrollArea",
+					"category": "common",
+					"tests": false,
+					"subdirectory": true,
+					"list": true,
+					"files": [
+						"index.tsx"
+					],
+					"localDependencies": [
+						"utils/cn"
+					],
+					"dependencies": [
+						"react@^18.3.1",
+						"@radix-ui/react-scroll-area@^1.2.2"
+					],
+					"devDependencies": [],
+					"_imports_": {
+						"../../utils/cn": "{{utils/cn}}"
+					}
+				},
+				{
+					"name": "Sheet",
+					"directory": "src/common/Sheet",
+					"category": "common",
+					"tests": false,
+					"subdirectory": true,
+					"list": true,
+					"files": [
+						"index.tsx"
+					],
+					"localDependencies": [
+						"utils/cn"
+					],
+					"dependencies": [
+						"@radix-ui/react-dialog@^1.1.6",
+						"class-variance-authority@^0.7.1",
+						"react@^18.3.1"
+					],
+					"devDependencies": [],
+					"_imports_": {
+						"../../utils/cn": "{{utils/cn}}"
+					}
+				},
+				{
+					"name": "Toasts",
+					"directory": "src/common/Toasts",
+					"category": "common",
+					"tests": false,
+					"subdirectory": true,
+					"list": true,
+					"files": [
+						"errorToast.tsx",
+						"successToast.tsx"
+					],
+					"localDependencies": [],
+					"dependencies": [
+						"@equinor/eds-core-react@^0.43.0",
+						"@equinor/eds-icons",
+						"sonner@^1.7.2"
+					],
+					"devDependencies": [],
+					"_imports_": {}
 				}
-			},
-			{
-				"name": "ScrollArea",
-				"directory": "src/common/ScrollArea",
-				"category": "common",
-				"tests": false,
-				"subdirectory": true,
-				"list": true,
-				"files": [
-					"index.tsx"
-				],
-				"localDependencies": [
-					"utils/cn"
-				],
-				"dependencies": [
-					"react@^18.3.1",
-					"@radix-ui/react-scroll-area@^1.2.2"
-				],
-				"devDependencies": [],
-				"_imports_": {
-					"../../utils/cn": "{{utils/cn}}"
+			]
+		},
+		{
+			"name": "config",
+			"blocks": [
+				{
+					"name": "biome",
+					"directory": "src/config",
+					"category": "config",
+					"tests": false,
+					"subdirectory": false,
+					"list": true,
+					"files": [
+						"biome.json"
+					],
+					"localDependencies": [],
+					"_imports_": {},
+					"dependencies": [],
+					"devDependencies": []
+				},
+				{
+					"name": "vite.config",
+					"directory": "src/config",
+					"category": "config",
+					"tests": false,
+					"subdirectory": false,
+					"list": true,
+					"files": [
+						"vite.config.ts"
+					],
+					"localDependencies": [],
+					"_imports_": {},
+					"dependencies": [
+						"@tailwindcss/vite@^4.0.2"
+					],
+					"devDependencies": [
+						"@vitejs/plugin-react@^4.3.4",
+						"vite@^6.0.11",
+						"vite-plugin-checker@^0.8.0"
+					]
 				}
-			},
-			{
-				"name": "Sheet",
-				"directory": "src/common/Sheet",
-				"category": "common",
-				"tests": false,
-				"subdirectory": true,
-				"list": true,
-				"files": [
-					"index.tsx"
-				],
-				"localDependencies": [
-					"utils/cn"
-				],
-				"dependencies": [
-					"@radix-ui/react-dialog@^1.1.6",
-					"class-variance-authority@^0.7.1",
-					"react@^18.3.1"
-				],
-				"devDependencies": [],
-				"_imports_": {
-					"../../utils/cn": "{{utils/cn}}"
+			]
+		},
+		{
+			"name": "styles",
+			"blocks": [
+				{
+					"name": "index",
+					"directory": "src/styles",
+					"category": "styles",
+					"tests": false,
+					"subdirectory": false,
+					"list": true,
+					"files": [
+						"index.css"
+					],
+					"localDependencies": [],
+					"_imports_": {},
+					"dependencies": [
+						"tailwindcss-animate",
+						"@tailwindcss/typography"
+					],
+					"devDependencies": [
+						"tailwindcss@^4.0.2"
+					]
 				}
-			},
-			{
-				"name": "Toasts",
-				"directory": "src/common/Toasts",
-				"category": "common",
-				"tests": false,
-				"subdirectory": true,
-				"list": true,
-				"files": [
-					"errorToast.tsx",
-					"successToast.tsx"
-				],
-				"localDependencies": [],
-				"dependencies": [
-					"@equinor/eds-core-react@^0.43.0",
-					"@equinor/eds-icons",
-					"sonner@^1.7.2"
-				],
-				"devDependencies": [],
-				"_imports_": {}
-			}
-		]
-	},
-	{
-		"name": "config",
-		"blocks": [
-			{
-				"name": "biome",
-				"directory": "src/config",
-				"category": "config",
-				"tests": false,
-				"subdirectory": false,
-				"list": true,
-				"files": [
-					"biome.json"
-				],
-				"localDependencies": [],
-				"_imports_": {},
-				"dependencies": [],
-				"devDependencies": []
-			},
-			{
-				"name": "vite.config",
-				"directory": "src/config",
-				"category": "config",
-				"tests": false,
-				"subdirectory": false,
-				"list": true,
-				"files": [
-					"vite.config.ts"
-				],
-				"localDependencies": [],
-				"_imports_": {},
-				"dependencies": [
-					"@tailwindcss/vite@^4.0.2"
-				],
-				"devDependencies": [
-					"@vitejs/plugin-react@^4.3.4",
-					"vite@^6.0.11",
-					"vite-plugin-checker@^0.8.0"
-				]
-			}
-		]
-	},
-	{
-		"name": "styles",
-		"blocks": [
-			{
-				"name": "index",
-				"directory": "src/styles",
-				"category": "styles",
-				"tests": false,
-				"subdirectory": false,
-				"list": true,
-				"files": [
-					"index.css"
-				],
-				"localDependencies": [],
-				"_imports_": {},
-				"dependencies": [],
-				"devDependencies": []
-			}
-		]
-	},
-	{
-		"name": "types",
-		"blocks": [
-			{
-				"name": "FieldComponent",
-				"directory": "src/types",
-				"category": "types",
-				"tests": false,
-				"subdirectory": false,
-				"list": true,
-				"files": [
-					"FieldComponent.ts"
-				],
-				"localDependencies": [],
-				"_imports_": {},
-				"dependencies": [
-					"react-hook-form@^7.54.2"
-				],
-				"devDependencies": []
-			}
-		]
-	},
-	{
-		"name": "utils",
-		"blocks": [
-			{
-				"name": "cn",
-				"directory": "src/utils",
-				"category": "utils",
-				"tests": false,
-				"subdirectory": false,
-				"list": true,
-				"files": [
-					"cn.ts"
-				],
-				"localDependencies": [],
-				"_imports_": {},
-				"dependencies": [
-					"clsx@^2.1.1",
-					"tailwind-merge@^2.6.0"
-				],
-				"devDependencies": []
-			}
-		]
-	}
-]
+			]
+		},
+		{
+			"name": "types",
+			"blocks": [
+				{
+					"name": "FieldComponent",
+					"directory": "src/types",
+					"category": "types",
+					"tests": false,
+					"subdirectory": false,
+					"list": true,
+					"files": [
+						"FieldComponent.ts"
+					],
+					"localDependencies": [],
+					"_imports_": {},
+					"dependencies": [
+						"react-hook-form@^7.54.2"
+					],
+					"devDependencies": []
+				}
+			]
+		},
+		{
+			"name": "utils",
+			"blocks": [
+				{
+					"name": "cn",
+					"directory": "src/utils",
+					"category": "utils",
+					"tests": false,
+					"subdirectory": false,
+					"list": true,
+					"files": [
+						"cn.ts"
+					],
+					"localDependencies": [],
+					"_imports_": {},
+					"dependencies": [
+						"clsx@^2.1.1",
+						"tailwind-merge@^2.6.0"
+					],
+					"devDependencies": []
+				}
+			]
+		}
+	]
+}
