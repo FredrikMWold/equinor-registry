@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.5.0](https://github.com/FredrikMWold/equinor-registry/compare/v1.4.0...v1.5.0) (2025-02-23)
+
+
+### Features
+
+* add field component type defintion ([d6bfb3a](https://github.com/FredrikMWold/equinor-registry/commit/d6bfb3a3c5fcaeddd101d0ac5c733c2eeb67c3a4))
+
+
+### Bug Fixes
+
+* wrap dropdown in portal ([3cec7ee](https://github.com/FredrikMWold/equinor-registry/commit/3cec7eee7544495938e008e32f1cd05138ab522c))
+
 ## [1.4.0](https://github.com/FredrikMWold/equinor-registry/compare/v1.3.0...v1.4.0) (2025-01-31)
 
 
