@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/FredrikMWold/equinor-registry/compare/v1.5.0...v1.5.1) (2025-02-23)
+
+
+### Bug Fixes
+
+* update jsrepo veriosn ([74fd406](https://github.com/FredrikMWold/equinor-registry/commit/74fd406344bc95db872045285e1b1e2842a6bb8e))
+
 ## [1.5.0](https://github.com/FredrikMWold/equinor-registry/compare/v1.4.0...v1.5.0) (2025-02-23)
 
 
