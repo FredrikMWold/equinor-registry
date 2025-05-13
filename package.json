@@ -14,7 +14,7 @@
     "jsrepo": "^1.47.1",
     "tailwindcss": "^4.1.6",
     "typescript": "^5.8.3",
-    "vite": "^6.3.2",
+    "vite": "^6.3.5",
     "vite-plugin-checker": "^0.9.1"
   },
   "dependencies": {
