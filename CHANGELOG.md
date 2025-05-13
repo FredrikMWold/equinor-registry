@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/FredrikMWold/equinor-registry/compare/v1.5.2...v1.6.0) (2025-05-13)
+
+
+### Features
+
+* update tailwind config ([f74cf0e](https://github.com/FredrikMWold/equinor-registry/commit/f74cf0e59f0fadc031152282e26286239f475625))
+
 ## [1.5.2](https://github.com/FredrikMWold/equinor-registry/compare/v1.5.1...v1.5.2) (2025-04-08)
 
 
