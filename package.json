@@ -10,7 +10,7 @@
   "description": "",
   "devDependencies": {
     "@types/react": "^18.3.13",
-    "@vitejs/plugin-react": "^4.4.1",
+    "@vitejs/plugin-react": "^4.5.1",
     "jsrepo": "^2.0.2",
     "tailwindcss": "^4.1.6",
     "typescript": "^5.8.3",
