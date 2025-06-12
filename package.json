@@ -12,7 +12,7 @@
     "@types/react": "^18.3.13",
     "@vitejs/plugin-react": "^4.4.1",
     "jsrepo": "^2.0.2",
-    "tailwindcss": "^4.1.6",
+    "tailwindcss": "^4.1.10",
     "typescript": "^5.8.3",
     "vite": "^6.3.5",
     "vite-plugin-checker": "^0.9.3"
